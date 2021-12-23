@@ -1,0 +1,10 @@
+const express=require('express');
+const customerController = require('../controllers/customerController');
+const xacthuc=require('../middleware/xacthuc');
+const customerRouter=express.Router();
+customerRouter.post('/login',xacthuc.xacthucCustomer,customerController.index);
+customerRouter.post('/',xacthuc.xacthucCustomer,xacthuc.xacthucCustomerpost,customerController.post);
+customerRouter.delete('/:id',xacthuc.xacthucDangnhap,customerController.delete);
+customerRouter.put('/',xacthuc.xacthucDangnhap,xacthuc.xacthucCustomer2,customerController.put);
+customerRouter.get('/logout',customerController.logout);
+module.exports=customerRouter;
