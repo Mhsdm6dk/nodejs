@@ -1,0 +1,175 @@
+/* header */
+.header {
+  height: 64px;
+  background: #414141;
+  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.160784);
+  position: fixed;
+  width: 100%;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  box-sizing: border-box;
+  user-select: none;
+  z-index: 10;
+}
+.headerBox {
+  min-width: 80%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header_right {
+  display: flex;
+}
+.header_left {
+  padding-top: 8px;
+}
+.mainLogo {
+  width: 109px;
+  height: 40px;
+  margin: 16px;
+}
+.buttonBox {
+  display: flex;
+  padding: 8px;
+}
+.button_icon {
+  height: 27px;
+}
+.button_iconBox {
+  margin-right: 8px;
+}
+.button_buttonName {
+  color: #ffffff;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 23px;
+  min-width: 96px;
+}
+.buttonListBox {
+  display: flex;
+  align-items: center;
+  margin-left: 16px;
+}
+/* banner */
+.banner {
+  display: flex;
+  background: #2e2e2e;
+  width: 100%;
+  padding-top: 64px;
+}
+.foodBannerImageBox {
+  width: 42.1875%;
+  background: url(./image/bannerFood.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.foodBannerImage {
+  width: 100%;
+}
+.graphBannerBox {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.graphBanner {
+  width: 80%;
+  padding: 8px 0;
+}
+.mainPhotoText {
+  width: 35%;
+}
+/* body */
+.list_hexBox {
+  display: flex;
+  justify-content: center;
+  width: 60%;
+  margin: 0 auto;
+  padding: 21px 0;
+}
+.hexBox {
+  width: 25%;
+  padding: 0 23px;
+}
+.hex {
+  width: 100%;
+}
+.body {
+}
+.listItemBox {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+.itemBox {
+  width: 25%;
+  padding: 4px;
+  box-sizing: border-box;
+}
+.item {
+  position: relative;
+  display: flex;
+  overflow: hidden;
+}
+.itemName {
+  position: absolute;
+  padding: 8px;
+  bottom: 0;
+  width: fit-content;
+  background: #ffcc21;
+  color: white;
+  display: flex;
+  align-items: center;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 18px;
+  letter-spacing: 0.15px;
+  min-width: 120px;
+}
+.itemImage {
+  width: 100%;
+}
+.body_buttonBox {
+  width: 100%;
+}
+.body_button {
+  margin: 24px auto;
+  background: linear-gradient(32.95deg, #ffcc21 8.75%, #ff963c 86.64%);
+  height: 56px;
+  width: 296px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+  overflow: hidden;
+  cursor: pointer;
+  user-select: none;
+  color: white;
+}
+/* footer */
+.footer {
+  height: 128px;
+  background: #414141;
+  display: flex;
+  justify-content: center;
+}
+.listButton {
+  min-width: 80%;
+  display: flex;
+  align-items: center;
+  height: 100%;
+  flex-wrap: wrap;
+}
+.footer_button {
+  color: white;
+  margin-right:46px;
+  font-weight: 300;
+  font-size: 11px;
+  line-height: 16px;
+  letter-spacing: 0.033px;
+}
