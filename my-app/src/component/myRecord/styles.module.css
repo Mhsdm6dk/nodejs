@@ -1,0 +1,33 @@
+.MyRecordBox {
+  padding-top: 64px;
+}
+.record {
+  height: 0;
+  width: 100%;
+  padding-bottom: 100%;
+  box-sizing: border-box;
+display: flex;
+align-items: center;
+  background: url(../../image/my1.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  filter: grayscale(500%);
+  background-color: #000000bf;
+}
+.recordBox {
+  border: 24px solid #ffcc21;
+  box-sizing: border-box;
+  
+}
+.recordBoxB {
+  width: 33.333333333333%;
+  padding: 24px;
+}
+.listRecordBox {
+  margin: 0 -24px;
+  display: flex;
+}
+.listRecordBoxWrapper {
+  width: 80%;
+  margin: 32px auto;
+}

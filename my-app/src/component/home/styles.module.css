@@ -1,0 +1,102 @@
+  /* banner */
+  .banner {
+    display: flex;
+    background: #2e2e2e;
+    width: 100%;
+    padding-top: 64px;
+  }
+  .foodBannerImageBox {
+    width: 42.1875%;
+    background: url(../../image/bannerFood.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .foodBannerImage {
+    width: 100%;
+  }
+  .graphBannerBox {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .graphBanner {
+    width: 80%;
+    padding: 8px 0;
+  }
+  .mainPhotoText {
+    width: 35%;
+  }
+  /* body */
+  .list_hexBox {
+    display: flex;
+    justify-content: center;
+    width: 60%;
+    margin: 0 auto;
+    padding: 21px 0;
+  }
+  .hexBox {
+    width: 25%;
+    padding: 0 23px;
+  }
+  .hex {
+    width: 100%;
+  }
+  .body {
+  }
+  .listItemBox {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .itemBox {
+    width: 25%;
+    padding: 4px;
+    box-sizing: border-box;
+  }
+  .item {
+    position: relative;
+    display: flex;
+    overflow: hidden;
+  }
+  .itemName {
+    position: absolute;
+    padding: 8px;
+    bottom: 0;
+    width: fit-content;
+    background: #ffcc21;
+    color: white;
+    display: flex;
+    align-items: center;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    letter-spacing: 0.15px;
+    min-width: 120px;
+  }
+  .itemImage {
+    width: 100%;
+  }
+  .body_buttonBox {
+    width: 100%;
+  }
+  .body_button {
+    margin: 24px auto;
+    background: linear-gradient(32.95deg, #ffcc21 8.75%, #ff963c 86.64%);
+    height: 56px;
+    width: 296px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    overflow: hidden;
+    cursor: pointer;
+    user-select: none;
+    color: white;
+  }
+
+  
