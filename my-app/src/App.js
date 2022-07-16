@@ -8,6 +8,7 @@ import icon_menu from "./image/icon_menu.png";
 import { Route, Switch, BrowserRouter } from "react-router-dom";
 import Home from "./component/home/home";
 import MyRecord from "./component/myRecord/myRecord";
+import Column from "./component/Column/column";
 function App() {
   return (
     <BrowserRouter>
@@ -44,7 +45,10 @@ function App() {
         </div>
         <Switch>
           <Route path={'/myRecord'}>
-            <MyRecord/>
+            <MyRecord />
+          </Route>
+          <Route path={'/column'}>
+            <Column />
           </Route>
           <Route path='*'>
             <Home />

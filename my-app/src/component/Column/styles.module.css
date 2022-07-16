@@ -1,0 +1,158 @@
+.column {
+  padding-top: 64px;
+}
+.listRecommendedBox {
+  display: flex;
+  margin: 0 -16px;
+}
+.listRecommendedBoxWrapper {
+  width: 80%;
+  margin: 0 auto;
+}
+.recomemendedBox {
+  width: 25%;
+  padding: 16px;
+}
+.recomemended {
+  background: #2e2e2e;
+  padding: 24px 8px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.recomemendedTitle {
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 27px;
+  /* or 123% */
+
+  text-align: center;
+  letter-spacing: 0.11px;
+
+  color: #ffcc21;
+  margin-bottom: 10px;
+}
+.recomemendedLine {
+  width: 56px;
+  border-top: 1px solid #ffffff;
+}
+.recomemendedContent {
+  margin-top: 8px;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 26px;
+  /* identical to box height, or 144% */
+
+  text-align: center;
+
+  color: #ffffff;
+}
+/* 
+ */
+/* banner */
+.banner {
+  display: flex;
+  background: #2e2e2e;
+  width: 100%;
+  padding-top: 64px;
+}
+.foodBannerImageBox {
+  width: 42.1875%;
+  background: url(../../image/bannerFood.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.foodBannerImage {
+  width: 100%;
+}
+.graphBannerBox {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.graphBanner {
+  width: 80%;
+  padding: 8px 0;
+}
+.mainPhotoText {
+  width: 35%;
+}
+/* body */
+.itemContent {
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 22px;
+  /* or 147% */
+
+  letter-spacing: 0.075px;
+  margin: 8px 0 3px;
+  color: #414141;
+}
+.itemHashtag {
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 22px;
+  /* or 183% */
+
+  letter-spacing: 0.06px;
+
+  color: #ff963c;
+}
+.body {
+  width: 80%;
+  margin: 0 auto;
+}
+.listItemBox {
+  margin:0 -4px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.itemBox {
+  width: 25%;
+  padding: 4px;
+  box-sizing: border-box;
+}
+.item {
+  position: relative;
+  display: flex;
+  overflow: hidden;
+}
+.itemName {
+  position: absolute;
+  padding: 8px;
+  bottom: 0;
+  width: fit-content;
+  background: #ffcc21;
+  color: white;
+  display: flex;
+  align-items: center;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 18px;
+  letter-spacing: 0.15px;
+  min-width: 120px;
+}
+.itemImage {
+  width: 100%;
+}
+.body_buttonBox {
+  width: 100%;
+}
+.body_button {
+  margin: 24px auto;
+  background: linear-gradient(32.95deg, #ffcc21 8.75%, #ff963c 86.64%);
+  height: 56px;
+  width: 296px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+  overflow: hidden;
+  cursor: pointer;
+  user-select: none;
+  color: white;
+}
