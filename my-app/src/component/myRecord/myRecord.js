@@ -402,6 +402,126 @@ function MyRecord() {
 
                 </div>
             </div>
+            <div className={styles.myDiary}>
+                <div className={styles.myDiaryHeadding}>MY DIARY</div>
+                <div className={styles.diaryListBox}>
+                    <div className={styles.diaryBox}>
+                        <div className={styles.diary}>
+                            <div className={styles.diaryTime}>
+                                2021.05.21
+                                <br />
+                                23:25
+                            </div>
+                            <div className={styles.diaryContent}>
+                                私の日記の記録が一部表示されます。
+                                <br />
+                                テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト…
+                            </div>
+                        </div>
+                    </div>
+                    <div className={styles.diaryBox}>
+                        <div className={styles.diary}>
+                            <div className={styles.diaryTime}>
+                                2021.05.21
+                                <br />
+                                23:25
+                            </div>
+                            <div className={styles.diaryContent}>
+                                私の日記の記録が一部表示されます。
+                                <br />
+                                テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト…
+                            </div>
+                        </div>
+                    </div>
+                    <div className={styles.diaryBox}>
+                        <div className={styles.diary}>
+                            <div className={styles.diaryTime}>
+                                2021.05.21
+                                <br />
+                                23:25
+                            </div>
+                            <div className={styles.diaryContent}>
+                                私の日記の記録が一部表示されます。
+                                <br />
+                                テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト…
+                            </div>
+                        </div>
+                    </div>
+                    <div className={styles.diaryBox}>
+                        <div className={styles.diary}>
+                            <div className={styles.diaryTime}>
+                                2021.05.21
+                                <br />
+                                23:25
+                            </div>
+                            <div className={styles.diaryContent}>
+                                私の日記の記録が一部表示されます。
+                                <br />
+                                テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト…
+                            </div>
+                        </div>
+                    </div>
+                    <div className={styles.diaryBox}>
+                        <div className={styles.diary}>
+                            <div className={styles.diaryTime}>
+                                2021.05.21
+                                <br />
+                                23:25
+                            </div>
+                            <div className={styles.diaryContent}>
+                                私の日記の記録が一部表示されます。
+                                <br />
+                                テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト…
+                            </div>
+                        </div>
+                    </div>
+                    <div className={styles.diaryBox}>
+                        <div className={styles.diary}>
+                            <div className={styles.diaryTime}>
+                                2021.05.21
+                                <br />
+                                23:25
+                            </div>
+                            <div className={styles.diaryContent}>
+                                私の日記の記録が一部表示されます。
+                                <br />
+                                テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト…
+                            </div>
+                        </div>
+                    </div>
+                    <div className={styles.diaryBox}>
+                        <div className={styles.diary}>
+                            <div className={styles.diaryTime}>
+                                2021.05.21
+                                <br />
+                                23:25
+                            </div>
+                            <div className={styles.diaryContent}>
+                                私の日記の記録が一部表示されます。
+                                <br />
+                                テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト…
+                            </div>
+                        </div>
+                    </div>
+                    <div className={styles.diaryBox}>
+                        <div className={styles.diary}>
+                            <div className={styles.diaryTime}>
+                                2021.05.21
+                                <br />
+                                23:25
+                            </div>
+                            <div className={styles.diaryContent}>
+                                私の日記の記録が一部表示されます。
+                                <br />
+                                テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト…
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div className={styles.body_buttonBox}>
+                <div className={styles.body_button}>自分の日記をもっと見る</div>
+            </div>
         </div>
     )
 }

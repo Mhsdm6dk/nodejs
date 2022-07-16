@@ -63,7 +63,7 @@
 }
 .graphBoxWrapper {
   width: 80%;
-  margin: 10px auto;
+  margin: 0px auto 56px;
   background: #414141;
   padding: 16px 24px;
   box-sizing: border-box;
@@ -160,6 +160,7 @@
   justify-content: space-between;
   border-bottom: 1px solid #777777;
   padding-bottom: 8px;
+  padding-top: 8px;
 }
 .contentRight {
   padding-right: 20px;
@@ -202,18 +203,86 @@
 
   color: #ffcc21;
 }
-.listContentBox::-webkit-scrollbar{
+.listContentBox::-webkit-scrollbar {
   border-radius: 20px;
   width: 6px;
   background: #777777;
 }
-.contentLeft_number{
+.contentLeft_number {
   margin-left: 20px;
 }
-.listContentBox::-webkit-scrollbar-thumb{
-  background: #FFCC21;
+.listContentBox::-webkit-scrollbar-thumb {
+  background: #ffcc21;
   border-radius: 20px;
 }
-.contentLeft{
+.contentLeft {
   flex: 1;
+}
+/* diary */
+.myDiary {
+  margin: 0 auto;
+  width: 80%;
+}
+.diaryListBox {
+  margin: 6px -6px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.diaryBox {
+  width: 25%;
+  padding: 6px;
+  box-sizing: border-box;
+}
+.diary {
+  border: 1px solid gray;
+  width: 100%;
+  padding: 16px;
+  box-sizing: border-box;
+}
+.diaryTime {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  /* or 122% */
+
+  letter-spacing: 0.09px;
+
+  color: #414141;
+}
+.diaryContent {
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 17px;
+  /* or 142% */
+
+  letter-spacing: 0.06px;
+
+  color: #414141;
+}
+.myDiaryHeadding {
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 27px;
+  /* or 123% */
+
+  letter-spacing: 0.11px;
+
+  color: #414141;
+}
+.body_buttonBox {
+  width: 100%;
+}
+.body_button {
+  margin: 24px auto 64px;
+  background: linear-gradient(32.95deg, #ffcc21 8.75%, #ff963c 86.64%);
+  height: 56px;
+  width: 296px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+  overflow: hidden;
+  cursor: pointer;
+  user-select: none;
+  color: white;
 }
