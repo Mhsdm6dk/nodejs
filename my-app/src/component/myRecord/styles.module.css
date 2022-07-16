@@ -2,22 +2,14 @@
   padding-top: 64px;
 }
 .record {
-  height: 0;
   width: 100%;
-  padding-bottom: 100%;
+  display: flex;
   box-sizing: border-box;
-display: flex;
-align-items: center;
-  background: url(../../image/my1.png);
-  background-size: cover;
-  background-repeat: no-repeat;
-  filter: grayscale(500%);
-  background-color: #000000bf;
+  position: relative;
 }
 .recordBox {
   border: 24px solid #ffcc21;
   box-sizing: border-box;
-  
 }
 .recordBoxB {
   width: 33.333333333333%;
@@ -30,4 +22,198 @@ align-items: center;
 .listRecordBoxWrapper {
   width: 80%;
   margin: 32px auto;
+}
+.recordImage {
+  width: 100%;
+  filter: grayscale(200%);
+  background: rgba(0, 0, 0, 0.822);
+}
+.recordButtonBox {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.recordButtonContent {
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 30px;
+
+  text-align: center;
+  letter-spacing: 0.125px;
+  color: #ffcc21;
+  margin-bottom: 10px;
+}
+.recordButton {
+  background: #ff963c;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 20px;
+  min-height: 24px;
+  min-width: 160px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #ffffff;
+}
+.graphBoxWrapper {
+  width: 80%;
+  margin: 10px auto;
+  background: #414141;
+  padding: 16px 24px;
+  box-sizing: border-box;
+}
+.grapHeader {
+  display: flex;
+  align-items: center;
+}
+.grapHeaderName {
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 18px;
+  width: 88px;
+
+  letter-spacing: 0.15px;
+
+  color: #ffffff;
+}
+.grapHeaderDate {
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 27px;
+  /* identical to box height, or 123% */
+
+  letter-spacing: 0.11px;
+
+  color: #ffffff;
+}
+.graph_background {
+  width: 100%;
+}
+.graphBody {
+  position: relative;
+}
+.graphBodyWrapper {
+  padding: 0 31px;
+  margin: 10px 0;
+}
+.graph_image {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  left: 0;
+}
+.graph_number {
+  position: absolute;
+  bottom: -15%;
+  left: -1.2%;
+  width: 102%;
+}
+.listGraphButton {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+}
+.graphButtonBox {
+  min-height: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: white;
+  border-radius: 100px;
+  margin-right: 16px;
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 22px;
+
+  text-align: center;
+  letter-spacing: 0.075px;
+
+  color: #ffcc21;
+  cursor: pointer;
+}
+.graphButton {
+  margin: 0 20px;
+}
+.graphButtonBox.choose {
+  color: white;
+  background: #ffcc21;
+}
+.graphBodyFooter {
+  margin-top: 50px;
+}
+
+.listContentBox {
+  display: flex;
+  flex-wrap: wrap;
+  height: 192px;
+  overflow: auto;
+  margin-top: 10px;
+}
+.contentBox {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #777777;
+  padding-bottom: 8px;
+}
+.contentRight {
+  padding-right: 20px;
+  width: fit-content;
+}
+.contentBoxWrapper {
+  width: 50%;
+  padding-right: 30px;
+  box-sizing: border-box;
+}
+.contentLeftName {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 22px;
+  /* identical to box height, or 147% */
+
+  letter-spacing: 0.075px;
+
+  color: #ffffff;
+}
+.contentLeft_number {
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 18px;
+  /* identical to box height, or 120% */
+
+  letter-spacing: 0.075px;
+
+  color: #ffcc21;
+}
+.contentRight {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  /* identical to box height, or 122% */
+
+  text-align: right;
+  letter-spacing: 0.09px;
+
+  color: #ffcc21;
+}
+.listContentBox::-webkit-scrollbar{
+  border-radius: 20px;
+  width: 6px;
+  background: #777777;
+}
+.contentLeft_number{
+  margin-left: 20px;
+}
+.listContentBox::-webkit-scrollbar-thumb{
+  background: #FFCC21;
+  border-radius: 20px;
+}
+.contentLeft{
+  flex: 1;
 }
